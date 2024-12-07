@@ -15,7 +15,9 @@ function randomNumber(){
     return Math.floor(Math.random()*4);
 }
 
-
+$("#start").click(function(){
+    beeper();
+})
 
 $(document).keypress(function(){
     if(gameStart==1)
